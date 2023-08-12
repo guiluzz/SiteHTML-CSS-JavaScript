@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+:root {
+  --background-body: #f0f0f5;
+  --background-icon: #E7E7E7;
+  --cor-titulo: #322153;
+  --cor-descricao: #1E1E1E;
+  --font-roboto: font-family: "Roboto", sans-serif;
+  --font-ubuntu: font-family: "Ubuntu", sans-serif;
+}
+
+html,
+body {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background: var(--background-body);
+}
+
+a:visited {
+  color: var(--cor-titulo);
+}
+
+#menu{
+  display: none;
+}
+
+@media only screen and (max-width: 922px){
+
+
+
+  #menu{
+    position: fixed;
+    background-color: rgba(0,0,0,0.9);
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #menu ul {
+    list-style-type: none;
+  }
+
+  #menu ul li {
+    padding: 3rem;
+    text-align: center;
+  }
+
+  #menu ul li a{
+    background-color: #E7E7E7;
+    display: inline-flex;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    border-radius: 8px;
+  }
+
+  #menu ul li a:hover{
+    font-weight: 600;
+  }
+
+  #menu.toggle-menu{
+    display: none;
+  }
+
+  header nav ul {
+    display: none;
+  }
+  header nav {
+    position: relative;
+  }
+
+  .icons{
+    display: flex;
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+  }
+
+  .icons > img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .icons .fechar{
+    display: none;
+  }
+
+  .icons {
+    right: 0;
+    position: absolute;
+    z-index: 9999;
+    cursor: pointer;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero-imagem {
+    height: auto;
+    padding: 0;
+  }
+
+  .hero-imagem {
+    padding: 0 !important;
+}
+
+  .hero-descricao {
+    width: auto;
+    text-align: center;
+  }
+
+  .reciclar-descricao{
+    flex-direction: column;
+  }
+
+  .reciclar-descricao p {
+    order: -1;
+  }
+
+  .itens-icon {
+    grid-template-columns: 1fr;
+  }
+
+  main {
+    margin: 2rem 0;
+    padding: 1rem 0;
+  } 
+
+  footer {
+    display: flex;
+    align-items: center;
+  }
+
+  .footer-direitos{
+    padding-left: 1rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width: 599px){
+  .formulario-input-trick > input {
+    width: 175px;
+  }
+
+  .reciclar-imagem > img {
+    max-width: 387px;
+  }
+  main {
+    padding: 1rem 0;
+  }
+}
+
+

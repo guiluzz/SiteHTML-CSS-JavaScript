@@ -1,0 +1,275 @@
+header nav {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  font-family: var(--font-ubuntu);
+  font-size: 1.25rem;
+  color: var(--cor-titulo);
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+}
+
+header nav a img {
+  padding-right: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header nav ul li a {
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: var(--font-ubuntu);
+  font-size: 1.25rem;
+  color: var(--cor-titulo);
+  font-weight: 600;
+}
+
+header nav ul li a:hover{
+  background: #f1f1f1;
+  filter: brightness(90%);
+}
+
+nav ul li:not(:last-child){
+  margin-right: 2rem;
+}
+
+.hero {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.hero-descricao {
+  width: 550px;
+}
+
+.hero-descricao > h1 {
+  font-size: 3.5rem;
+  font-family: var(--font-ubuntu);
+  color: var(--cor-titulo);
+  font-weight: 500;
+}
+
+.hero-descricao > p {
+  font-size: 1.5rem;
+  color: var(--cor-descricao);
+  margin-top: 1rem;
+}
+
+.hero-imagem {
+  height: calc(100vh - 76px);
+  display: flex;
+  align-items: flex-end;
+}
+
+.hero-imagem > img {
+  width: 100%;
+  max-width: 684px;
+}
+
+.reciclar {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.reciclar-flex{
+  align-items: center;
+  display: flex;
+}
+
+.reciclar-titulo {
+  padding: 1rem 0 0;
+  text-align: center;
+}
+
+.reciclar-titulo > h1 {
+  font-size: 3rem;
+  font-family: var(--font-ubuntu);
+  color: var(--cor-titulo);
+  font-weight: 500;
+}
+
+.reciclar-descricao {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.reciclar-descricao > p {
+  padding: 0 1rem;
+}
+
+.reciclar-imagem > img {
+  max-width: 500px;
+  border-radius: 32px;
+}
+
+.itens {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.itens-titulo{
+  padding: 1rem;
+  text-align: center;
+}
+
+.itens-titulo > h1{
+  font-size: 3rem;
+  font-family: var(--font-ubuntu);
+  color: var(--cor-titulo);
+  font-weight: 500;
+}
+
+.itens-icon {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.itens-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-icon);
+  border-radius: 8px;
+  width: 365px;
+  height: 235px;
+  cursor: pointer;
+}
+
+.itens-content:hover{
+  filter: brightness(95%);
+}
+
+.itens-content > span {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  color: var(--cor-titulo);
+  font-family: var(--font-roboto);
+}
+
+.formulario {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.formulario-titulo {
+  padding: 1rem;
+  text-align: center;
+}
+
+.formulario-titulo > h1 {
+  font-size: 3rem;
+  font-family: var(--font-ubuntu);
+  color: var(--cor-titulo);
+  font-weight: 500;
+}
+
+.formulario-titulo > p {
+  font-size: 1.75rem;
+  font-family: var(--font-ubuntu);
+  color: var(--cor-titulo);
+  padding: 1rem 0;
+}
+
+.formulario-input {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 830px;
+}
+
+.formulario-input > label {
+  font-size: 1.1rem;
+  font-family: var(--font-roboto);
+  color: #111;
+  padding-bottom: 0.5rem;
+}
+
+.formulario-input > input,
+.formulario-input-trick > input,
+select {
+  background-color: #E1E1E1;
+  height: 56px;
+  outline: none;
+  border: 0;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+}
+
+.formulario-input > input:focus,
+.formulario-input-trick > input:focus{
+  filter: brightness(95%)
+}
+
+.formulario-input-trick {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formulario-input-trick button {
+  background-color: #E1E1E1;
+  color: var(--cor-titulo);
+  font-family: var(--font-roboto);
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 56px;
+  font-size: 1.3rem;
+  border:0;
+  cursor: pointer;
+}
+
+.formulario-input-trick button:hover {
+  filter: brightness(95%)
+}
+
+footer {
+  width: 90vw;
+  margin: 1rem auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  color: var(--cor-titulo);
+}
+
+.footer-logo > a {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  font-family: var(--font-ubuntu);
+  font-size: 1.25rem;
+  color: #000;
+}
+
+.footer-logo a > img {
+  padding-right: 1rem;
+}
+
+.icons {
+  display: none;
+}

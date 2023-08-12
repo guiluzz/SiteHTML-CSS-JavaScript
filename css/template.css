@@ -1,0 +1,117 @@
+header nav {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  font-family: var(--font-ubuntu);
+  font-size: 1.25rem;
+  color: var(--cor-titulo);
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+}
+
+header nav a img {
+  padding-right: 1rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header nav ul li a {
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: var(--font-ubuntu);
+  font-size: 1.25rem;
+  color: var(--cor-titulo);
+  font-weight: 600;
+}
+
+header nav ul li a:hover{
+  background: #f1f1f1;
+  filter: brightness(90%);
+}
+
+nav ul li:not(:last-child){
+  margin-right: 2rem;
+}
+
+.hero {
+  width: 90vw;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: calc(100vh - 76px);
+}
+
+.hero-descricao > h1 {
+  font-size: 3.5rem;
+  font-family: var(--font-ubuntu);
+  color: var(--cor-titulo);
+  line-height: 5rem;
+  font-weight: 500;
+}
+
+.hero-imagem{
+  padding-right: 10rem;
+}
+
+.hero-imagem-metal > img {
+  width: 323px;
+  height: 486px;
+}
+
+#porque-reciclar{
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.reciclar-titulo > h1, 
+.beneficios-titulo > h1{
+  padding: 1rem 0;
+  font-size: 3rem;
+  font-family: var(--font-ubuntu);
+  color: var(--cor-titulo);
+  text-align: center;
+  font-weight: 500;
+}
+
+.beneficios-titulo > h1 {
+  padding: 2rem 0;
+}
+
+footer {
+  width: 90vw;
+  margin: 1rem auto;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  color: var(--cor-titulo);
+}
+
+.footer-logo > a {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  font-family: var(--font-ubuntu);
+  font-size: 1.25rem;
+  color: #000;
+}
+
+.footer-logo a > img {
+  padding-right: 1rem;
+}
+
+
+
