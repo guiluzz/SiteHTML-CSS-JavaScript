@@ -14,7 +14,7 @@
 ## Visualização do resultado 👀
 - Para a visualização de como ficou este projeto, fiz uma gravação de tela mostrando as páginas deste site e demonstrando o funcionamento do formulário que consta na página principal. Para acessar o vídeo clique no link abaixo e baixe o arquivo através do "view raw"!!
 
-
 - ![Demonstração de funcionamento: Site HTML+CSS+JavaScript](https://github.com/guiluzz/SiteHTML-CSS-JavaScript/blob/main/Assets/Reciclagem.mp4)
 
+https://github.com/guiluzz/SiteHTML-CSS-JavaScript/assets/89231116/d4fee150-3aaa-4c88-b66c-817046ad2d90
 
